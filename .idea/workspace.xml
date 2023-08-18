@@ -5,28 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cf1d555-8668-4dad-814b-1feef1d38aa2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/pages/FormularioPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/pages/MenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/CalculadoraTesteA04s.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/test/CalculadoraTesteA04s.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/ClaculadoraTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/test/ClaculadoraTeste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/InstalarApk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/test/InstalarApk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/core/DSL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/DSL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/devePreencherCampoTexto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/test/devePreencherCampoTexto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/formularioDesafio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/test/formularioDesafio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/formularioTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/test/formularioTeste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.julia/CursoAppium/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/com.julia/CursoAppium/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.julia/CursoAppium/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/com.julia/CursoAppium/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/CalculadoraTesteA04s.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/ClaculadoraTeste.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/InstalarApk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/core/DSL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/core/DSL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/devePreencherCampoTexto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/formularioDesafio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/formularioTeste.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/core/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/DriverFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

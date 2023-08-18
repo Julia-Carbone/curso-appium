@@ -37,6 +37,6 @@ public class DSL {
 		return getDriver().findElement(by).getAttribute("checked").equals("true");
 	}
 	
-	
+	//teste
 
 }
