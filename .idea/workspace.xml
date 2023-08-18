@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7cf1d555-8668-4dad-814b-1feef1d38aa2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/pages/FormularioPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/pages/MenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/CalculadoraTesteA04s.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/test/CalculadoraTesteA04s.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/ClaculadoraTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/test/ClaculadoraTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/InstalarApk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/test/InstalarApk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/core/DSL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/DSL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/devePreencherCampoTexto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/test/devePreencherCampoTexto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/formularioDesafio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/test/formularioDesafio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/formularioTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/test/formularioTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.julia/CursoAppium/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/com.julia/CursoAppium/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.julia/CursoAppium/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/com.julia/CursoAppium/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/CalculadoraTesteA04s.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/ClaculadoraTeste.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/InstalarApk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/core/DSL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/core/DSL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/devePreencherCampoTexto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/formularioDesafio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/formularioTeste.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: -1
+}</component>
+  <component name="ProjectId" id="2TqA5OeGFbdWytJfzKXivJB31MV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zeus/curso-appium&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.formularioDesafio (1)">
+    <configuration name="formularioDesafio (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.julia.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.julia.test" />
+      <option name="MAIN_CLASS_NAME" value="com.julia.test.formularioDesafio" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="formularioDesafio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.julia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.julia" />
+      <option name="MAIN_CLASS_NAME" value="com.julia.formularioDesafio" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="formularioDesafio.deveRealizarCadastro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.julia.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.julia.test" />
+      <option name="MAIN_CLASS_NAME" value="com.julia.test.formularioDesafio" />
+      <option name="METHOD_NAME" value="deveRealizarCadastro" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.formularioDesafio (1)" />
+        <item itemvalue="JUnit.formularioDesafio.deveRealizarCadastro" />
+        <item itemvalue="JUnit.formularioDesafio" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7cf1d555-8668-4dad-814b-1feef1d38aa2" name="Changes" comment="" />
+      <created>1691760059333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691760059333</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
