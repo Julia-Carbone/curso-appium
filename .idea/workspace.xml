@@ -5,39 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cf1d555-8668-4dad-814b-1feef1d38aa2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/FormularioPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/MenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/test/formularioDesafio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/CalculadoraTesteA04s.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/test/CalculadoraTesteA04s.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/ClaculadoraTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/test/ClaculadoraTeste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/InstalarApk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/test/InstalarApk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/core/DSL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/devePreencherCampoTexto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/test/devePreencherCampoTexto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/formularioDesafio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/formularioTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/test/formularioTeste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.julia/CursoAppium/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.julia/CursoAppium/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/CalculadoraTesteA04s.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/CalculadoraTesteA04s.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/ClaculadoraTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/ClaculadoraTeste.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/InstalarApk.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/InstalarApk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/core/DSL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/core/DSL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/core/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/core/DriverFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/devePreencherCampoTexto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/devePreencherCampoTexto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/formularioDesafio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/formularioDesafio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/formularioTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/formularioTeste.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/pages/FormularioPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/pages/MenuPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/test/CalculadoraTesteA04s.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/test/ClaculadoraTeste.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/test/InstalarApk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/test/devePreencherCampoTexto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/test/formularioDesafio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/test/formularioTeste.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,14 +52,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Zeus/curso-appium",
+    "last_opened_file_path": "C:/Users/Zeus/AutomacaoMobile",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "proofread"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.formularioDesafio.devePreencherCampoTexto">
+  <component name="RunManager" selected="JUnit.formularioDesafio">
     <configuration name="CalculadoraTesteA04s" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoAppium" />
       <extension name="coverage">
@@ -171,9 +140,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.formularioDesafio.devePreencherCampoTexto" />
-        <item itemvalue="JUnit.formularioDesafio.deveRealizarCadastro (1)" />
         <item itemvalue="JUnit.formularioDesafio" />
+        <item itemvalue="JUnit.formularioDesafio.deveRealizarCadastro (1)" />
+        <item itemvalue="JUnit.formularioDesafio.devePreencherCampoTexto" />
         <item itemvalue="JUnit.formularioDesafio.deveRealizarCadastro" />
         <item itemvalue="JUnit.CalculadoraTesteA04s" />
       </list>
