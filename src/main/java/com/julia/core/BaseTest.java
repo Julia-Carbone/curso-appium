@@ -25,7 +25,7 @@ public class BaseTest {
     @After
     public void tearDown() throws MalformedURLException {
         gerarScreenShot();
-        DriverFactory.getDriver().resetApp(); //deixa os testes mais rapidos
+       // DriverFactory.getDriver().resetApp(); //deixa os testes mais rapidos
     }
 
     public void gerarScreenShot() {
@@ -36,4 +36,14 @@ public class BaseTest {
            e.printStackTrace();
         }
     }
+
+    /* uma das formas de pedir para aguardar determinado tempo:
+
+    public void esperar(long tempo) {
+        try {
+            Thread.sleep(tempo);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }*/
 }

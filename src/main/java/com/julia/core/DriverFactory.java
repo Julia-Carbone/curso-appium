@@ -1,12 +1,13 @@
 package com.julia.core;
 
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.concurrent.TimeUnit;
+import io.appium.java_client.android.AndroidDriver;
 import org.junit.After;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import io.appium.java_client.android.AndroidDriver;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.concurrent.TimeUnit;
 
 public class DriverFactory {
 
@@ -32,12 +33,8 @@ public class DriverFactory {
 		desiredCapabilities.setCapability("appium:appActivity", "com.ctappium.MainActivity");
 
 		driver = new AndroidDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"), desiredCapabilities);
+
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); // espera10s
-
-		// clicar no formulario
-
-		// driver.findElement(By.xpath("//android.widget.TextView[@text='Formulário']")).click();
-		// return driver;
 	}
 
 	public static void killDriver() { // usado para fechar e finalizar a instância do AndroidDriver quando não for //

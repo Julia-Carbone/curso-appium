@@ -44,6 +44,10 @@ public class FormularioPage extends BasePage {
         clicarPorTexto("SALVAR");
     }
 
+    public void salvarDemorado() throws MalformedURLException {
+        clicarPorTexto("SALVAR DEMORADO");
+    }
+
     public String obterNomeCadastrado() throws MalformedURLException {
         return obterTexto(By.xpath("//android.widget.TextView[starts-with(@text, 'Nome')]"));
     }

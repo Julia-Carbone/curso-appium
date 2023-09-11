@@ -1,13 +1,18 @@
 package com.julia.core.test;
 
 import com.julia.core.BaseTest;
+import com.julia.core.DriverFactory;
 import com.julia.core.page.FormularioPage;
 import com.julia.core.page.MenuPage;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.net.MalformedURLException;
+import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
@@ -78,5 +83,25 @@ public class formularioDesafio extends BaseTest {
 
     }
 
+    @Test
+    public void deveRealizarCadastroDemorado() throws MalformedURLException {
 
+        DriverFactory.getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+        // preencher campos
+        page.escreverNome("Julia");
+
+
+        // salvar
+        page.salvarDemorado();
+
+        //esperar(3000);
+        WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(), 10);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@text='Nome: Julia']"))); //esperar até que a condição aconteça
+
+        // verificar campos preenchidos
+        Assert.assertEquals("Nome: Julia", page.obterNomeCadastrado());
+
+
+
+    }
 }
