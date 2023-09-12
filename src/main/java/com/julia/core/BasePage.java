@@ -1,8 +1,10 @@
 package com.julia.core;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 import java.net.MalformedURLException;
+import java.util.List;
 
 import static com.julia.core.DriverFactory.getDriver;
 
@@ -36,6 +38,11 @@ public class BasePage {
 
     public boolean isSwitchMarcado(By by) throws MalformedURLException {
         return getDriver().findElement(by).getAttribute("checked").equals("true");
+    }
+
+    public boolean existeElementoPorTexto(String texto) throws MalformedURLException {
+        List<WebElement> elementos = (List<WebElement>) getDriver().findElements(By.xpath("//*[@text='" + texto + "']"));
+        return elementos.size() > 0;
     }
 
 }
