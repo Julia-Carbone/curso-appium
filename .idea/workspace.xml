@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cf1d555-8668-4dad-814b-1feef1d38aa2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/SplashPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/test/SplashTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/AlertPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/test/AlertTeste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/core/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/core/page/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/MenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/core/page/MenuPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/core/page/MenuPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,38 @@
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SplashTeste">
+  <component name="RunManager" selected="JUnit.AlertTeste.deveConfirmarAlerta">
+    <configuration name="AlertTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.julia.core.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.julia.core.test" />
+      <option name="MAIN_CLASS_NAME" value="com.julia.core.test.AlertTeste" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertTeste.deveConfirmarAlerta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.julia.core.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.julia.core.test" />
+      <option name="MAIN_CLASS_NAME" value="com.julia.core.test.AlertTeste" />
+      <option name="METHOD_NAME" value="deveConfirmarAlerta" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SplashTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoAppium" />
       <extension name="coverage">
@@ -99,37 +131,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="formularioDesafio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CursoAppium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.julia.core.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.julia.core.test" />
-      <option name="MAIN_CLASS_NAME" value="com.julia.core.test.formularioDesafio" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="formularioDesafio.deveRealizarCadastro (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CursoAppium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.julia.core.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.julia.core.test" />
-      <option name="MAIN_CLASS_NAME" value="com.julia.core.test.formularioDesafio" />
-      <option name="METHOD_NAME" value="deveRealizarCadastro" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="formularioDesafio.deveRealizarCadastroDemorado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoAppium" />
       <extension name="coverage">
@@ -148,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AlertTeste.deveConfirmarAlerta" />
+        <item itemvalue="JUnit.AlertTeste" />
         <item itemvalue="JUnit.SplashTeste" />
         <item itemvalue="JUnit.SplashTeste.deveAguardarSplashSumir" />
         <item itemvalue="JUnit.formularioDesafio.deveRealizarCadastroDemorado" />
-        <item itemvalue="JUnit.formularioDesafio" />
-        <item itemvalue="JUnit.formularioDesafio.deveRealizarCadastro (1)" />
       </list>
     </recent_temporary>
   </component>

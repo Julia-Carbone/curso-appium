@@ -25,7 +25,7 @@ public class BaseTest {
     @After
     public void tearDown() throws MalformedURLException {
         gerarScreenShot();
-       // DriverFactory.getDriver().resetApp(); //deixa os testes mais rapidos
+        DriverFactory.getDriver().resetApp(); //deixa os testes mais rapidos
     }
 
     public void gerarScreenShot() {
