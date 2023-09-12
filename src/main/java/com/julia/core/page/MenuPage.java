@@ -15,4 +15,8 @@ public class MenuPage extends BasePage {
     public void acessarAlerta() throws MalformedURLException {
         clicarPorTexto("Alertas");
     }
+
+    public void acessarAbas() throws MalformedURLException {
+        clicarPorTexto("Abas");
+    }
 }
