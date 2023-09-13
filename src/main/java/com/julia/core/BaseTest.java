@@ -37,13 +37,12 @@ public class BaseTest {
         }
     }
 
-    /* uma das formas de pedir para aguardar determinado tempo:
-
+    // uma das formas de pedir para aguardar determinado tempo:
     public void esperar(long tempo) {
         try {
             Thread.sleep(tempo);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-    }*/
+    }
 }
