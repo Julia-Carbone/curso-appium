@@ -36,7 +36,7 @@ public class AlertPage extends BasePage {
     }
 
     public void clicarForaCaixa() throws MalformedURLException {
-        tap(530, 1530);
+        tap(100, 150);
     }
 
 

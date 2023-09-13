@@ -48,11 +48,13 @@ public class AlertTeste extends BaseTest {
         //clicar alerta simples
         page.clicarAlertaSimples();
 
-        //clicar fora da caixa 530 1230
+        //clicar fora da caixa
+        esperar(1000);
         page.clicarForaCaixa();
 
         //verificar que a mensagem não existe mais
-        Assert.assertTrue(page.existeElementoPorTexto("Pode clicar no OK ou fora da caixa para sair"));
+        Assert.assertFalse(page.existeElementoPorTexto("Pode clicar no OK ou fora da caixa para sair"));
+
 
     }
 }
