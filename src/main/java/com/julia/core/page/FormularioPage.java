@@ -1,8 +1,11 @@
 package com.julia.core.page;
 
 import com.julia.core.BasePage;
+import com.julia.core.DriverFactory;
 import io.appium.java_client.MobileBy;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
 import java.net.MalformedURLException;
 
 //classe page herdou toda dsl
@@ -62,6 +65,22 @@ public class FormularioPage extends BasePage {
 
     public String obterSwitchCadastrado() throws MalformedURLException {
         return obterTexto(By.xpath("//android.widget.TextView[starts-with(@text, 'Switch')]"));
+    }
+
+    public void clicarSeekbar(double posicao) throws MalformedURLException {
+       WebElement seekbar =  DriverFactory.getDriver().findElement(MobileBy.AccessibilityId("slid"));
+
+       //definir os valores de x e y
+
+        int y = seekbar.getLocation().y + (seekbar.getSize().height/2);
+        System.out.println(y);
+
+        int x = (int) (seekbar.getLocation().x +(seekbar.getSize().width * posicao));
+        System.out.println(x);
+
+        tap(x, y);
+
+
     }
 
 }

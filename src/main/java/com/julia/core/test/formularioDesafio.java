@@ -105,12 +105,13 @@ public class formularioDesafio extends BaseTest {
 
     @Test
 
-            public void deveAlterarData() throws MalformedURLException {
-                page.clicarPorTexto("01/01/2000");
-                page.clicarPorTexto("20");
-                page.clicarPorTexto("OK");
-                Assert.assertTrue(page.existeElementoPorTexto("20/01/2000"));
-        }
+    public void deveAlterarData() throws MalformedURLException {
+        page.clicarPorTexto("01/01/2000");
+        page.clicarPorTexto("20");
+        page.clicarPorTexto("OK");
+        Assert.assertTrue(page.existeElementoPorTexto("20/01/2000"));
+    }
+
     @Test
 
     public void deveAlterarHora() throws MalformedURLException {
@@ -121,5 +122,18 @@ public class formularioDesafio extends BaseTest {
         Assert.assertTrue(page.existeElementoPorTexto("10:35"));
     }
 
+    @Test
+
+    public void deveInteragirComSeekbar() throws MalformedURLException {
+
+        //clicar no seekbar
+        page.clicarSeekbar(0.55);
+
+        //salvar
+        page.salvar();
+
+        //obter valor
     }
+
+}
 
