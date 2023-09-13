@@ -4,6 +4,7 @@ import com.julia.core.BaseTest;
 import com.julia.core.DriverFactory;
 import com.julia.core.page.FormularioPage;
 import com.julia.core.page.MenuPage;
+import io.appium.java_client.MobileBy;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -100,8 +101,25 @@ public class formularioDesafio extends BaseTest {
 
         // verificar campos preenchidos
         Assert.assertEquals("Nome: Julia", page.obterNomeCadastrado());
+    }
 
+    @Test
 
+            public void deveAlterarData() throws MalformedURLException {
+                page.clicarPorTexto("01/01/2000");
+                page.clicarPorTexto("20");
+                page.clicarPorTexto("OK");
+                Assert.assertTrue(page.existeElementoPorTexto("20/01/2000"));
+        }
+    @Test
+
+    public void deveAlterarHora() throws MalformedURLException {
+        page.clicarPorTexto("12:00");
+        page.clicar(MobileBy.AccessibilityId("10"));
+        page.clicar(MobileBy.AccessibilityId("35"));
+        page.clicarPorTexto("OK");
+        Assert.assertTrue(page.existeElementoPorTexto("10:35"));
+    }
 
     }
-}
+
