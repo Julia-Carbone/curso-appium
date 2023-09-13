@@ -4,6 +4,7 @@ import com.julia.core.BaseTest;
 import com.julia.core.page.AlertPage;
 import com.julia.core.page.MenuPage;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 import java.net.MalformedURLException;
@@ -13,12 +14,14 @@ public class AlertTeste extends BaseTest {
     private MenuPage menu = new MenuPage();
     private AlertPage page = new AlertPage();
 
+    @Before
+    public void setup() throws MalformedURLException {
+        menu.acessarAlerta();
+    }
+
     @Test
 
     public void deveConfirmarAlerta() throws MalformedURLException {
-
-        //acessar menu alerta
-        menu.acessarAlerta();
 
         //clicar em 'alert confirm'
         page.clicarAlertaConfirm();
@@ -35,6 +38,21 @@ public class AlertTeste extends BaseTest {
 
         //sair
         page.SairAlerta();
+
+    }
+
+    @Test
+
+    public void deveClicarForaAlerta() throws MalformedURLException {
+
+        //clicar alerta simples
+        page.clicarAlertaSimples();
+
+        //clicar fora da caixa 530 1230
+        page.clicarForaCaixa();
+
+        //verificar que a mensagem não existe mais
+        Assert.assertTrue(page.existeElementoPorTexto("Pode clicar no OK ou fora da caixa para sair"));
 
     }
 }

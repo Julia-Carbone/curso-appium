@@ -1,5 +1,7 @@
 package com.julia.core;
 
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
@@ -44,6 +46,13 @@ public class BasePage {
         List<WebElement> elementos = (List<WebElement>) getDriver().findElements(By.xpath("//*[@text='" + texto + "']"));
         return elementos.size() > 0;
         //como é booleano, quando formos declarar essa funcao em um metodo ele precisa ser booleano tmb
+    }
+
+    //método de coordenadas
+    public void tap(int x, int y) throws MalformedURLException {
+
+        new TouchAction(getDriver()).tap(PointOption.point(x, y)).perform();
+
     }
 
 }

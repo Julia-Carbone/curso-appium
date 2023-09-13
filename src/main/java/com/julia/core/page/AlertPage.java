@@ -31,4 +31,13 @@ public class AlertPage extends BasePage {
         clicar(By.id("android:id/button1"));
     }
 
+    public void clicarAlertaSimples() throws MalformedURLException {
+        clicarPorTexto("ALERTA SIMPLES");
+    }
+
+    public void clicarForaCaixa() throws MalformedURLException {
+        tap(530, 1530);
+    }
+
+
 }
