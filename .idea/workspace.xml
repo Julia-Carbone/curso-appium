@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cf1d555-8668-4dad-814b-1feef1d38aa2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/CliqueLongoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/test/CliqueLongoTeste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/core/page/FormularioPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/FormularioPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/core/test/formularioDesafio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/test/formularioDesafio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/core/page/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/MenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/core/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/core/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/core/page/MenuPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/core/page/MenuPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +68,7 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.formularioDesafio.deveInteragirComSeekbar">
+  <component name="RunManager" selected="JUnit.CliqueLongoTeste.deveRealizarCliqueLongo">
     <configuration name="AlertTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoAppium" />
       <extension name="coverage">
@@ -97,7 +100,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="formularioDesafio.deveAlterarData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CliqueLongoTeste.deveRealizarCliqueLongo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoAppium" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +109,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.julia.core.test" />
-      <option name="MAIN_CLASS_NAME" value="com.julia.core.test.formularioDesafio" />
-      <option name="METHOD_NAME" value="deveAlterarData" />
+      <option name="MAIN_CLASS_NAME" value="com.julia.core.test.CliqueLongoTeste" />
+      <option name="METHOD_NAME" value="deveRealizarCliqueLongo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CliqueLongoTeste.deveRealizarCliqueLongo" />
         <item itemvalue="JUnit.formularioDesafio.deveInteragirComSeekbar" />
         <item itemvalue="JUnit.AlertTeste.deveClicarForaAlerta" />
         <item itemvalue="JUnit.AlertTeste" />
         <item itemvalue="JUnit.formularioDesafio.deveAlterarHora" />
-        <item itemvalue="JUnit.formularioDesafio.deveAlterarData" />
       </list>
     </recent_temporary>
   </component>

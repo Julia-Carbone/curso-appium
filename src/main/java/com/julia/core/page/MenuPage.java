@@ -23,4 +23,8 @@ public class MenuPage extends BasePage {
     public void acessarAccordion() throws MalformedURLException {
         clicarPorTexto("Accordion");
     }
+
+    public void acessarClique() throws MalformedURLException {
+        clicarPorTexto("Cliques");
+    }
 }
