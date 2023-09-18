@@ -11,14 +11,6 @@ public class AlertPage extends BasePage {
         clicarPorTexto("ALERTA CONFIRM");
     }
 
-    public String obterTituloAlerta() throws MalformedURLException {
-        return obterTexto(By.id("android:id/alertTitle"));
-    }
-
-    public String obterMensagemAlerta() throws MalformedURLException {
-        return obterTexto(By.id("android:id/message"));
-    }
-
     public void ConfirmarAlerta() throws MalformedURLException {
         clicar(By.id("android:id/button2"));
     }
