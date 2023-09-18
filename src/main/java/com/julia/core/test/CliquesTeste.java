@@ -1,18 +1,18 @@
 package com.julia.core.test;
 
 import com.julia.core.BaseTest;
-import com.julia.core.page.CliqueLongoPage;
+import com.julia.core.page.CliquesPage;
 import com.julia.core.page.MenuPage;
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.net.MalformedURLException;
 
-public class CliqueLongoTeste extends BaseTest {
+public class CliquesTeste extends BaseTest {
 
     private MenuPage menu = new MenuPage();
 
-    private CliqueLongoPage page = new CliqueLongoPage();
+    private CliquesPage page = new CliquesPage();
 
     @Test
     public void deveRealizarCliqueLongo() throws MalformedURLException {
@@ -26,7 +26,18 @@ public class CliqueLongoTeste extends BaseTest {
         //verificar campo texto
         Assert.assertEquals("Clique Longo", page.validarCampoTexto());
 
-
     }
 
+    @Test
+    public void deveInteragirCliqueDuplo() throws MalformedURLException {
+
+        //acessar menu clique
+        menu.acessarClique();
+
+        //clique duplo
+        page.deveDarCliqueDuplo();
+
+        //verificar campo texto
+        Assert.assertEquals("Duplo Clique", page.deveVerificarCampoTexto());
+    }
 }

@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 public class DriverFactory {
 
-	private static AndroidDriver<WebElement> driver; // variavel global
+	public static AndroidDriver<WebElement> driver; // variavel global
 
 	public static AndroidDriver<WebElement> getDriver() throws MalformedURLException {
 		if (driver == null) { //
