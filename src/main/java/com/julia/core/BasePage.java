@@ -7,11 +7,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
 
-import java.time.Duration;
 import java.net.MalformedURLException;
+import java.time.Duration;
 import java.util.List;
 
-import static com.julia.core.DriverFactory.driver;
 import static com.julia.core.DriverFactory.getDriver;
 
 public class BasePage {
@@ -70,7 +69,7 @@ public class BasePage {
     public void scroll(double inicio, double fim) throws MalformedURLException {
         Dimension size = getDriver().manage().window().getSize();
 
-        int x = size.width/2;
+        int x = size.width / 2;
 
         int startY = (int) (size.height * inicio);
         int endY = (int) (size.height * fim);
@@ -106,13 +105,21 @@ public class BasePage {
 
     }
 
-    public void clicarPorCoordenada(double x, double y) throws MalformedURLException {
+    public void swipeElement(WebElement element, double inicio, double fim) throws MalformedURLException {
 
-        Dimension size = getDriver().manage().window().getSize();
+        int y = element.getLocation().y + (element.getSize().height / 2);
 
-        TouchAction touchAction = new TouchAction(driver);
-        touchAction.tap(PointOption.point((int) x, (int) y)).perform();
+        int startX = (int) (element.getSize().width * inicio);
+        int endX = (int) (element.getSize().width * fim);
+
+        new TouchAction(getDriver()).press(PointOption.point(startX, y))
+                .waitAction(WaitOptions.waitOptions(Duration.ofMillis(500)))
+                .moveTo(PointOption.point(endX, y))
+                .release()
+                .perform();
 
     }
-
 }
+
+
+

@@ -31,4 +31,8 @@ public class MenuPage extends BasePage {
     public void acessarSwipe() throws MalformedURLException {
         clicarPorTexto("Swipe");
     }
+
+    public void acessarSwipeList() throws MalformedURLException {
+        clicarPorTexto("Swipe List");
+    }
 }

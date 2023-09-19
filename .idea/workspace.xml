@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cf1d555-8668-4dad-814b-1feef1d38aa2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/SwipeListPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/test/SwipeListTeste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/core/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/core/test/OpcaoEscondidaTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/test/OpcaoEscondidaTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/core/page/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/MenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/core/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/core/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/core/page/MenuPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/core/page/MenuPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/core/test/OpcaoEscondidaTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/core/test/OpcaoEscondidaTeste.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/core/test/SwipeTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/core/test/SwipeTeste.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,23 +71,7 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.SwipeTeste.deveInteragirComSwipe">
-    <configuration name="CliqueDuploTeste.deveInteragirCliqueDuplo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CursoAppium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.julia.core.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.julia.core.test" />
-      <option name="MAIN_CLASS_NAME" value="com.julia.core.test.CliqueDuploTeste" />
-      <option name="METHOD_NAME" value="deveInteragirCliqueDuplo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SwipeListTeste.deveInteragirSwipeList">
     <configuration name="CliquesTeste.deveInteragirCliqueDuplo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoAppium" />
       <extension name="coverage">
@@ -129,6 +119,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SwipeListTeste.deveInteragirSwipeList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.julia.core.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.julia.core.test" />
+      <option name="MAIN_CLASS_NAME" value="com.julia.core.test.SwipeListTeste" />
+      <option name="METHOD_NAME" value="deveInteragirSwipeList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SwipeTeste.deveInteragirComSwipe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoAppium" />
       <extension name="coverage">
@@ -147,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SwipeListTeste.deveInteragirSwipeList" />
         <item itemvalue="JUnit.SwipeTeste.deveInteragirComSwipe" />
         <item itemvalue="JUnit.OpcaoEscondidaTeste.deveEncontrarOpcaoEscondida" />
         <item itemvalue="JUnit.OpcaoEscondidaTeste" />
         <item itemvalue="JUnit.CliquesTeste.deveInteragirCliqueDuplo" />
-        <item itemvalue="JUnit.CliqueDuploTeste.deveInteragirCliqueDuplo" />
       </list>
     </recent_temporary>
   </component>
