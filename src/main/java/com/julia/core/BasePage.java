@@ -11,6 +11,7 @@ import java.time.Duration;
 import java.net.MalformedURLException;
 import java.util.List;
 
+import static com.julia.core.DriverFactory.driver;
 import static com.julia.core.DriverFactory.getDriver;
 
 public class BasePage {
@@ -75,6 +76,27 @@ public class BasePage {
         int endY = (int) (size.height * fim);
 
         new TouchAction(getDriver()).press(PointOption.point(x, startY)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(500))).moveTo(PointOption.point(x, endY)).release().perform();
+    }
+
+    public void swipe(double inicio, double fim) throws MalformedURLException {
+        Dimension size = getDriver().manage().window().getSize();
+
+        int y = size.height / 2; //meio da altura
+
+        int startX = (int) (size.width * inicio);
+        int endX = (int) (size.width * fim);
+
+        new TouchAction(getDriver()).press(PointOption.point(startX, y)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(500))).moveTo(PointOption.point(endX, y)).release().perform();
+
+    }
+
+    public void clicarPorCoordenada(double x, double y) throws MalformedURLException {
+
+        Dimension size = getDriver().manage().window().getSize();
+
+        TouchAction touchAction = new TouchAction(driver);
+        touchAction.tap(PointOption.point((int) x, (int) y)).perform();
+
     }
 
 }
