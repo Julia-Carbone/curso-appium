@@ -25,7 +25,7 @@ public class OpcaoEscondidaTeste extends BaseTest {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@text='Formulário']")));
         System.out.println("Começando"); //só para acompanhar melhor a automação
 
-        menu.scrollDown(0.9, 0.1);
+        menu.scrollDown();
 
         //clicar menu
         menu.clicarPorTexto("Opção bem escondida");

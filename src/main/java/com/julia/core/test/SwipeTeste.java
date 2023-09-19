@@ -22,22 +22,22 @@ public class SwipeTeste extends BaseTest {
         Assert.assertTrue(menu.existeElementoPorTexto("a esquerda"));
 
         //swipe para direita
-        menu.swipe(0.9, 0.2);
+        menu.swipeRight();
 
         //verificar texto
         Assert.assertTrue(menu.existeElementoPorTexto("E veja se"));
 
         //clicar no botão na direita
-        menu.swipe(0.9, 0.2);
+        menu.swipeRight();
 
         //verificar texto 'Chegar até o fim!'
         Assert.assertTrue(menu.existeElementoPorTexto("Chegar até o fim!"));
 
         //swipe para esquerda
-        menu.swipe(0.2, 0.9);
+        menu.swipeLeft();
 
         //clicar no botão da esquerda
-        menu.swipe(0.2, 0.9);
+        menu.swipeLeft();
 
         //verificar texto
         Assert.assertTrue(menu.existeElementoPorTexto("a esquerda"));

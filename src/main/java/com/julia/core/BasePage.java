@@ -67,7 +67,7 @@ public class BasePage {
 
     }
 
-    public void scrollDown(double inicio, double fim) throws MalformedURLException {
+    public void scroll(double inicio, double fim) throws MalformedURLException {
         Dimension size = getDriver().manage().window().getSize();
 
         int x = size.width/2;
@@ -76,6 +76,22 @@ public class BasePage {
         int endY = (int) (size.height * fim);
 
         new TouchAction(getDriver()).press(PointOption.point(x, startY)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(500))).moveTo(PointOption.point(x, endY)).release().perform();
+    }
+
+    public void scrollDown() throws MalformedURLException {
+        scroll(0.9, 0.1);
+    }
+
+    public void scrollUp() throws MalformedURLException {
+        scroll(0.1, 0.9);
+    }
+
+    public void swipeLeft() throws MalformedURLException {
+        swipe(0.9, 0.2);
+    }
+
+    public void swipeRight() throws MalformedURLException {
+        swipe(0.2, 0.9);
     }
 
     public void swipe(double inicio, double fim) throws MalformedURLException {
