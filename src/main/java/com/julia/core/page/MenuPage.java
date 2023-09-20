@@ -1,5 +1,7 @@
 package com.julia.core.page;
+
 import com.julia.core.BasePage;
+
 import java.net.MalformedURLException;
 
 public class MenuPage extends BasePage {
@@ -34,5 +36,9 @@ public class MenuPage extends BasePage {
 
     public void acessarSwipeList() throws MalformedURLException {
         clicarPorTexto("Swipe List");
+    }
+
+    public void acessarDragAndDrop() throws MalformedURLException {
+        clicarPorTexto("Drag and drop");
     }
 }

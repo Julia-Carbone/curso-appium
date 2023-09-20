@@ -6,7 +6,6 @@ import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
-
 import java.net.MalformedURLException;
 import java.time.Duration;
 import java.util.List;

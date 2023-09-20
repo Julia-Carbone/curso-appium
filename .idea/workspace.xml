@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cf1d555-8668-4dad-814b-1feef1d38aa2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/SwipeListPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/test/SwipeListTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/DragAndDropPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/test/DragAndDropTeste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/core/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/core/page/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/MenuPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/julia/core/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/core/BasePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/julia/core/page/MenuPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/core/page/MenuPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/core/test/OpcaoEscondidaTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/core/test/OpcaoEscondidaTeste.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/core/test/SwipeTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/core/test/SwipeTeste.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +69,8 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.SwipeListTeste.deveInteragirSwipeList">
-    <configuration name="CliquesTeste.deveInteragirCliqueDuplo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DragAndDropTeste.deveRealizarDragAndDrop">
+    <configuration name="DragAndDropTeste.deveRealizarDragAndDrop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoAppium" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +79,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.julia.core.test" />
-      <option name="MAIN_CLASS_NAME" value="com.julia.core.test.CliquesTeste" />
-      <option name="METHOD_NAME" value="deveInteragirCliqueDuplo" />
+      <option name="MAIN_CLASS_NAME" value="com.julia.core.test.DragAndDropTeste" />
+      <option name="METHOD_NAME" value="deveRealizarDragAndDrop" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DragAndDropTeste.deveRealizarDragAndDrop" />
         <item itemvalue="JUnit.SwipeListTeste.deveInteragirSwipeList" />
         <item itemvalue="JUnit.SwipeTeste.deveInteragirComSwipe" />
         <item itemvalue="JUnit.OpcaoEscondidaTeste.deveEncontrarOpcaoEscondida" />
         <item itemvalue="JUnit.OpcaoEscondidaTeste" />
-        <item itemvalue="JUnit.CliquesTeste.deveInteragirCliqueDuplo" />
       </list>
     </recent_temporary>
   </component>
