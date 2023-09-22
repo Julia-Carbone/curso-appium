@@ -41,4 +41,8 @@ public class MenuPage extends BasePage {
     public void acessarDragAndDrop() throws MalformedURLException {
         clicarPorTexto("Drag and drop");
     }
+
+    public void acessarSBHibrido() throws MalformedURLException {
+        clicarPorTexto("SeuBarriga Híbrido");
+    }
 }

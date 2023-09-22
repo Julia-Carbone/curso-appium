@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cf1d555-8668-4dad-814b-1feef1d38aa2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/DragAndDropPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/test/DragAndDropTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/WebViewPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/test/WebViewTeste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/core/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/core/page/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/MenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/julia/core/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/core/BasePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/julia/core/page/MenuPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/core/page/MenuPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +67,7 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.DragAndDropTeste.deveRealizarDragAndDrop">
+  <component name="RunManager" selected="JUnit.WebViewTeste.deveRealizarLogin">
     <configuration name="DragAndDropTeste.deveRealizarDragAndDrop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoAppium" />
       <extension name="coverage">
@@ -82,21 +80,6 @@
       <option name="MAIN_CLASS_NAME" value="com.julia.core.test.DragAndDropTeste" />
       <option name="METHOD_NAME" value="deveRealizarDragAndDrop" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OpcaoEscondidaTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CursoAppium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.julia.core.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.julia.core.test" />
-      <option name="MAIN_CLASS_NAME" value="com.julia.core.test.OpcaoEscondidaTeste" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,13 +132,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebViewTeste.deveRealizarLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.julia.core.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.julia.core.test" />
+      <option name="MAIN_CLASS_NAME" value="com.julia.core.test.WebViewTeste" />
+      <option name="METHOD_NAME" value="deveRealizarLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WebViewTeste.deveRealizarLogin" />
         <item itemvalue="JUnit.DragAndDropTeste.deveRealizarDragAndDrop" />
         <item itemvalue="JUnit.SwipeListTeste.deveInteragirSwipeList" />
         <item itemvalue="JUnit.SwipeTeste.deveInteragirComSwipe" />
         <item itemvalue="JUnit.OpcaoEscondidaTeste.deveEncontrarOpcaoEscondida" />
-        <item itemvalue="JUnit.OpcaoEscondidaTeste" />
       </list>
     </recent_temporary>
   </component>
