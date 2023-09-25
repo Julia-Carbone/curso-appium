@@ -45,4 +45,8 @@ public class MenuPage extends BasePage {
     public void acessarSBHibrido() throws MalformedURLException {
         clicarPorTexto("SeuBarriga Híbrido");
     }
+
+    public void acessarSBNativo() throws MalformedURLException {
+        clicarPorTexto("SeuBarriga Nativo");
+    }
 }

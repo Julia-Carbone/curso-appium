@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cf1d555-8668-4dad-814b-1feef1d38aa2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/WebViewPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/test/WebViewTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/seuBarriga/SBContasPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/seuBarriga/SBLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/seuBarriga/SBNativoMenuPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/test/SBTeste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/core/page/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/MenuPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/julia/core/page/MenuPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/julia/core/page/MenuPage.class" afterDir="false" />
@@ -67,7 +69,7 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.WebViewTeste.deveRealizarLogin">
+  <component name="RunManager" selected="JUnit.SBTeste">
     <configuration name="DragAndDropTeste.deveRealizarDragAndDrop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoAppium" />
       <extension name="coverage">
@@ -84,7 +86,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpcaoEscondidaTeste.deveEncontrarOpcaoEscondida" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SBTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoAppium" />
       <extension name="coverage">
         <pattern>
@@ -93,14 +95,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.julia.core.test" />
-      <option name="MAIN_CLASS_NAME" value="com.julia.core.test.OpcaoEscondidaTeste" />
-      <option name="METHOD_NAME" value="deveEncontrarOpcaoEscondida" />
+      <option name="MAIN_CLASS_NAME" value="com.julia.core.test.SBTeste" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SBTeste.inserirConta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.julia.core.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.julia.core.test" />
+      <option name="MAIN_CLASS_NAME" value="com.julia.core.test.SBTeste" />
+      <option name="METHOD_NAME" value="inserirConta" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwipeListTeste.deveInteragirSwipeList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SBTeste.teste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoAppium" />
       <extension name="coverage">
         <pattern>
@@ -109,24 +126,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.julia.core.test" />
-      <option name="MAIN_CLASS_NAME" value="com.julia.core.test.SwipeListTeste" />
-      <option name="METHOD_NAME" value="deveInteragirSwipeList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SwipeTeste.deveInteragirComSwipe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CursoAppium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.julia.core.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.julia.core.test" />
-      <option name="MAIN_CLASS_NAME" value="com.julia.core.test.SwipeTeste" />
-      <option name="METHOD_NAME" value="deveInteragirComSwipe" />
+      <option name="MAIN_CLASS_NAME" value="com.julia.core.test.SBTeste" />
+      <option name="METHOD_NAME" value="teste" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SBTeste" />
+        <item itemvalue="JUnit.SBTeste.inserirConta" />
+        <item itemvalue="JUnit.SBTeste.teste" />
         <item itemvalue="JUnit.WebViewTeste.deveRealizarLogin" />
         <item itemvalue="JUnit.DragAndDropTeste.deveRealizarDragAndDrop" />
-        <item itemvalue="JUnit.SwipeListTeste.deveInteragirSwipeList" />
-        <item itemvalue="JUnit.SwipeTeste.deveInteragirComSwipe" />
-        <item itemvalue="JUnit.OpcaoEscondidaTeste.deveEncontrarOpcaoEscondida" />
       </list>
     </recent_temporary>
   </component>
