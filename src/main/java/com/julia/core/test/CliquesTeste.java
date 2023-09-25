@@ -21,7 +21,7 @@ public class CliquesTeste extends BaseTest {
         menu.acessarClique();
 
         //pressionar clique longo
-        page.longPress();
+        page.cliqueLongo();
 
         //verificar campo texto
         Assert.assertEquals("Clique Longo", page.validarCampoTexto());

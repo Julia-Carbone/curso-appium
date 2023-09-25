@@ -1,11 +1,15 @@
 package com.julia.core;
 
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
+import io.appium.java_client.touch.LongPressOptions;
 import io.appium.java_client.touch.WaitOptions;
+import io.appium.java_client.touch.offset.ElementOption;
 import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
+
 import java.net.MalformedURLException;
 import java.time.Duration;
 import java.util.List;
@@ -116,6 +120,17 @@ public class BasePage {
                 .moveTo(PointOption.point(endX, y))
                 .release()
                 .perform();
+
+    }
+
+    public void cliqueLongo(By by) throws MalformedURLException {
+
+        MobileElement element = (MobileElement) getDriver().findElement(by);
+        TouchAction touchAction = new TouchAction(getDriver());
+        touchAction.longPress(LongPressOptions.longPressOptions()
+                        .withElement(ElementOption.element(element))
+                        .withDuration(Duration.ofSeconds(2)))
+                .release().perform();
 
     }
 }

@@ -40,9 +40,26 @@ public class SBTeste extends BaseTest {
         //salvar
         contas.salvar();
 
-        //verificar mensagem
+        //validar mensagem
        Assert.assertTrue(contas.existeElementoPorTexto("Conta adicionada com sucesso"));
 
+    }
+
+    @Test
+
+    public void deveExcluirConta() throws MalformedURLException {
+
+        //entrar em contas
+        menuSB.acessarConta();
+
+        //clique longo na conta
+        contas.selecionarConta("Conta de Teste");
+
+        //excluir
+        contas.excluir();
+
+        //validar mensagem
+        Assert.assertTrue(contas.existeElementoPorTexto("Conta excluída com sucesso"));
     }
 
 }

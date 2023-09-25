@@ -15,12 +15,9 @@ import static com.julia.core.DriverFactory.getDriver;
 public class CliquesPage extends BasePage {
 
 
-    public void longPress() throws MalformedURLException {
+    public void cliqueLongo() throws MalformedURLException {
 
-        WebElement element = getDriver().findElement(By.xpath("//*[@text='Clique Longo']"));
-
-        new TouchAction(getDriver()).longPress(ElementOption.element(element)).release().perform();
-
+        cliqueLongo(By.xpath("//*[@text='Clique Longo']"));
     }
 
     public String validarCampoTexto() throws MalformedURLException {

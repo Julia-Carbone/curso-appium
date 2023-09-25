@@ -15,4 +15,12 @@ public class SBContasPage extends BasePage {
         clicarPorTexto("SALVAR");
     }
 
+    public void excluir() throws MalformedURLException {
+        clicarPorTexto("EXCLUIR");
+    }
+
+    public void selecionarConta(String conta) throws MalformedURLException {
+    cliqueLongo(By.xpath("//*[@text='"+conta+"']"));
+    }
+
 }
