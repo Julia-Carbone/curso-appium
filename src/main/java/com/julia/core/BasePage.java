@@ -59,7 +59,7 @@ public class BasePage {
     public boolean existeElementoPorTexto(String texto) throws MalformedURLException {
         List<WebElement> elementos = (List<WebElement>) getDriver().findElements(By.xpath("//*[@text='" + texto + "']"));
         return elementos.size() > 0;
-        //como é booleano, quando formos declarar essa funcao em um metodo ele precisa ser booleano tmb
+        //como é booleano, quando formos declarar essa funcao em um metodo ele precisa ser booleano tmb, no caso vai ser 'Assert true'
     }
 
     //método de coordenadas

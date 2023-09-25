@@ -10,4 +10,8 @@ public class SBNativoMenuPage extends BasePage {
     public void acessarConta() throws MalformedURLException {
         clicarPorTexto("Contas");
     }
+
+    public void acessarMovimentacao() throws MalformedURLException {
+        clicarPorTexto("Mov...");
+    }
 }

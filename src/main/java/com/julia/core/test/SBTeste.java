@@ -4,6 +4,7 @@ import com.julia.core.BaseTest;
 import com.julia.core.page.MenuPage;
 import com.julia.core.page.seuBarriga.SBContasPage;
 import com.julia.core.page.seuBarriga.SBLoginPage;
+import com.julia.core.page.seuBarriga.SBMovPage;
 import com.julia.core.page.seuBarriga.SBNativoMenuPage;
 import org.junit.Assert;
 import org.junit.Before;
@@ -16,8 +17,9 @@ public class SBTeste extends BaseTest {
     private MenuPage menu = new MenuPage();
     private SBLoginPage login = new SBLoginPage();
     private SBNativoMenuPage menuSB = new SBNativoMenuPage();
-
     private SBContasPage contas = new SBContasPage();
+
+    private SBMovPage mov = new SBMovPage();
 
     @Before
     public void setup() throws MalformedURLException {
@@ -62,4 +64,36 @@ public class SBTeste extends BaseTest {
         Assert.assertTrue(contas.existeElementoPorTexto("Conta excluída com sucesso"));
     }
 
+    @Test
+
+    public void deveValidarInclusãoMov() throws MalformedURLException {
+
+        //acessar mov
+        menuSB.acessarMovimentacao();
+
+        //validar descrição
+        mov.salvar();
+        Assert.assertTrue(mov.existeElementoPorTexto("Descrição é um campo obrigatório"));
+
+        //validar interessado
+        mov.setDescricao("Teste");
+        mov.salvar();
+        Assert.assertTrue(mov.existeElementoPorTexto("Interessado é um campo obrigatório"));
+
+        //validar valor
+        mov.setInteressado("Julia");
+        mov.salvar();
+        Assert.assertTrue(mov.existeElementoPorTexto("Valor é um campo obrigatório"));
+
+        //validar conta
+        mov.setValor("100");
+        mov.salvar();
+        Assert.assertTrue(mov.existeElementoPorTexto("Conta é um campo obrigatório"));
+
+        //validar 'inserir com sucesso'
+        mov.setConta("Conta para alterar");
+        mov.salvar();
+        Assert.assertTrue(mov.existeElementoPorTexto("Movimentação cadastrada com sucesso"));
+
+    }
 }
