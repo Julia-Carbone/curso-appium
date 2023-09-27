@@ -49,4 +49,5 @@ public class MenuPage extends BasePage {
     public void acessarSBNativo() throws MalformedURLException {
         clicarPorTexto("SeuBarriga Nativo");
     }
+
 }

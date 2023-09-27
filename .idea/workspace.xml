@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cf1d555-8668-4dad-814b-1feef1d38aa2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/seuBarriga/SBMovPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/seuBarriga/SBHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/seuBarriga/SBResumoPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/core/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/core/page/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/MenuPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/core/page/seuBarriga/SBNativoMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/page/seuBarriga/SBNativoMenuPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/julia/core/test/SBTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/julia/core/test/SBTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshots/deveValidarInclusãoMov.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/deveValidarInclusãoMov.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,27 +49,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Zeus/curso-appium",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zeus/curso-appium&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.SBTeste.deveValidarInclusãoMov">
+}</component>
+  <component name="RunManager" selected="JUnit.SBTeste.deveAtualizarSaldoAoExcluirMov">
     <configuration name="SBTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoAppium" />
       <extension name="coverage">
@@ -79,6 +81,22 @@
       <option name="PACKAGE_NAME" value="com.julia.core.test" />
       <option name="MAIN_CLASS_NAME" value="com.julia.core.test.SBTeste" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SBTeste.deveAtualizarSaldoAoExcluirMov" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.julia.core.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.julia.core.test" />
+      <option name="MAIN_CLASS_NAME" value="com.julia.core.test.SBTeste" />
+      <option name="METHOD_NAME" value="deveAtualizarSaldoAoExcluirMov" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,29 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SBTeste.teste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CursoAppium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.julia.core.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.julia.core.test" />
-      <option name="MAIN_CLASS_NAME" value="com.julia.core.test.SBTeste" />
-      <option name="METHOD_NAME" value="teste" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SBTeste.deveAtualizarSaldoAoExcluirMov" />
         <item itemvalue="JUnit.SBTeste.deveValidarInclusãoMov" />
         <item itemvalue="JUnit.SBTeste.deveExcluirConta" />
         <item itemvalue="JUnit.SBTeste.inserirConta" />
         <item itemvalue="JUnit.SBTeste" />
-        <item itemvalue="JUnit.SBTeste.teste" />
       </list>
     </recent_temporary>
   </component>
